@@ -1,3 +1,5 @@
+
+#assumption: all inputs are integers and have the correct units ( cm and kg)
 def sort(width, height, length, mass):
     error, isValid = validateArgs(width, height, length, mass)
     if not isValid:
